@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style2.css">  
+</head>
+<body>
+
+    <div class="card">
+        <header>
+            <h1>Welcome to My Coding Journey</h1>
+            <p>I am learning full-stack development from the absolute basics.</p>
+            <button id="theme-toggle" class="toggle-btn">🌙 Dark Mode</button>
+        </header>
+         
+        <div class="timer-container">
+            <h3>Daily Coding Goal</h3>
+            <div id="timer-display">30:00</div>
+            
+            <div class="timer-controls">
+                <button id="timer-start" class="timer-btn">▶ Start</button>
+                <button id="timer-pause" class="timer-btn">⏸ Pause</button>
+                <button id="timer-reset" class="timer-btn">🔄 Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>My Skills Tracking</h2>
+         
+        <h3 class="left-align">1. HTML</h3>
+        <p class="left-align">Status: Currently Learning</p>
+        <p class="left-align">I am learning how to use paragraphs, headings, and lists to structure a web page.</p>
+
+        <h3 class="right-align">2. CSS</h3>
+        <p class="right-align">Status: Up Next</p>
+        <p class="right-align">Soon I will learn how to add colors, fonts, layouts, and animations to this page.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Learning Goals</h2>
+        <ul id="goals-list">
+            <li>
+                <input type="checkbox" id="goal1">
+                <label for="goal1">Code for at least 30 minutes every day.</label>
+            </li>
+            <li>
+                <input type="checkbox" id="goal2">
+                <label for="goal2">Complete at least one coding project per month.</label>
+            </li>
+            <li>
+                <input type="checkbox" id="goal3">
+                <label for="goal3">Build a multi-page personal website.</label>
+            </li>
+            <li>
+                <input type="checkbox" id="goal4">
+                <label for="goal4">Master backend databases later on.</label>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Areas i need to master now</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+    </div>
+    <!-- Add this card block right above your final script link -->
+    <div class="card">
+        <h2>Daily Motivation</h2>
+        <p id="tip-text">Loading inspiration from the server...</p>
+        <button id="get-tip-btn" class="toggle-btn">🔄 Get New Tip</button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
